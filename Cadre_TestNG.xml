@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cadre_Test_Suite" verbose="2">
+<test name="cadre_test_case">
+<classes>
+
+
+<class name="Cadrepackage.Cadre_Cycle_1"/>
+
+
+
+
+
+</classes>
+</test>
+</suite>
+
+<!--   <class name="Cadrepackage.cadre_cycle_2"/>
+<class name="Cadrepackage.Cadre_cycle_3"/>
+
+
+
+<class name="Cadrepackage.Cadre_Register_planner"/>
+<class name="Cadrepackage.Registration_TD"/>
+<class name="Cadrepackage.PL_Create_managed_Event"/>
+<class name="Cadrepackage.Cancellation_Wizard_Pl"/>
+<class name="Cadrepackage.Cancellation_Wizard_TD"/>
+
+-->

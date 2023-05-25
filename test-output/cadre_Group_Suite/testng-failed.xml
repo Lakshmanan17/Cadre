@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cadre_Group_Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="cadre_Group_test_case(failed)" verbose="2">
+    <groups>
+      <run>
+        <exclude name="invite_TD"/>
+        <exclude name="sent_QA"/>
+        <exclude name="Hire_td"/>
+        <exclude name="Upload_itinerary"/>
+        <exclude name="ADD_transaction"/>
+        <exclude name="private_Message_TD"/>
+        <exclude name="Myteam"/>
+        <exclude name="settings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Cadrepackage.cadre_Pl">
+        <methods>
+          <include name="close_browser"/>
+          <include name="contact"/>
+          <include name="payment_method"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- Cadrepackage.cadre_Pl -->
+    </classes>
+  </test> <!-- cadre_Group_test_case(failed) -->
+</suite> <!-- Failed suite [cadre_Group_Suite] -->

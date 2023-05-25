@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cadre_Group_Suite" verbose="2">
+<test name="cadre_Group_test_case">
+<groups>
+<run>
+<exclude name="invite_TD"></exclude>
+<exclude name="sent_QA"></exclude>
+<exclude name="Hire_td"></exclude>
+<exclude name="Upload_itinerary"></exclude>
+<exclude name="ADD_transaction"></exclude>
+<exclude name="private_Message_TD"></exclude>
+<exclude name="Myteam"></exclude>
+<exclude name="settings"></exclude>
+<exclude name="contact"></exclude>
+<exclude name="payment_method"></exclude>
+</run>
+</groups>
+<classes>
+<class name="Cadrepackage.cadre_Pl"/>
+</classes>
+</test>
+</suite>

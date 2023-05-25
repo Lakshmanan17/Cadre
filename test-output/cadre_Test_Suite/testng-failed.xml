@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cadre_Test_Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="cadre_test_case(failed)" verbose="2">
+    <classes>
+      <class name="Cadrepackage.Cadre_Cycle_1">
+        <methods>
+          <include name="TD_invite_Place_bid"/>
+          <include name="invite_TD"/>
+          <include name="withdraw_bids"/>
+          <include name="sent_QA"/>
+          <include name="Create_Event"/>
+          <include name="promote_your_self"/>
+          <include name="Edit_update_bids"/>
+        </methods>
+      </class> <!-- Cadrepackage.Cadre_Cycle_1 -->
+    </classes>
+  </test> <!-- cadre_test_case(failed) -->
+</suite> <!-- Failed suite [cadre_Test_Suite] -->
